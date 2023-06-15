@@ -48,6 +48,7 @@ div{
     display: grid;
     grid-template-columns: repeat(autofit, 50%);
     grid-template-rows: repeat(autofit, 50%);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .nav{
@@ -99,5 +100,53 @@ div{
 }
 
 .main-option{
-
+    display: flex;
+    gap: 10px;
 }
+
+.main-profile{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.profile-img{
+    margin-left: 23%;
+}
+
+.ridha{
+    margin-top: -20px;
+}
+
+.profile-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.options{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+button{
+    background-color: rgb(2, 127, 194);
+    border: 0px;
+    color: white;
+    border-radius: 20px;
+    width: 15%;
+    height: 40px;
+    font-size: large;
+}
+
+button:hover{
+    color: rgb(255, 209, 4);
+}
+
