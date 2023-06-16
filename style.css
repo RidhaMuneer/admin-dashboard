@@ -37,7 +37,6 @@ div{
 
 .main-section{
     width: 100%;
-    height: 1000px;
     color: black;
 }
 
@@ -48,7 +47,7 @@ div{
     display: grid;
     grid-template-columns: repeat(autofit, 50%);
     grid-template-rows: repeat(autofit, 50%);
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.286);
 }
 
 .nav{
@@ -119,6 +118,7 @@ div{
 
 .ridha{
     margin-top: -20px;
+    font-size: larger;
 }
 
 .profile-image{
@@ -150,3 +150,66 @@ button:hover{
     color: rgb(255, 209, 4);
 }
 
+.main-preview{
+    margin-left: 16%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(225, 225, 225, 0.706);
+}
+
+.projects-cards{
+    width: 70%;
+    height: 900px;
+    padding-left: 25px;
+}
+
+.cards{
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-auto-rows: minmax(200px, 250px);
+    gap: 30px;
+}
+
+.card-items{
+    border-radius: 20px;
+    border-left: 6px rgb(255, 209, 4) solid;
+    background-color: rgb(255, 255, 255);
+}
+
+.card-items:hover{
+    border: 1px black dashed;
+    border-left: 6px rgb(255, 209, 4) solid;
+}
+
+.main-suggestions{
+    width: 30%;
+    height: 900px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.ann{
+    width: 100%;
+    height: 50%;
+}
+
+.ann-box{
+    border-radius: 20px;
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+
+.trending{
+    width: 100%;
+    height: 50%;
+}
+
+.trending-box{
+    border-radius: 20px;
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
